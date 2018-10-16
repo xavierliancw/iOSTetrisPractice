@@ -14,6 +14,9 @@
 		0632A6192175794B00EC474A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0632A6172175794B00EC474A /* LaunchScreen.storyboard */; };
 		0632A6242175794B00EC474A /* PracticeTetrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0632A6232175794B00EC474A /* PracticeTetrisTests.swift */; };
 		0632A62F2175794B00EC474A /* PracticeTetrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0632A62E2175794B00EC474A /* PracticeTetrisUITests.swift */; };
+		0632A63E21757A6700EC474A /* CVGridCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0632A63C21757A6700EC474A /* CVGridCellCollectionViewCell.swift */; };
+		0632A63F21757A6700EC474A /* CVGridCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0632A63D21757A6700EC474A /* CVGridCellCollectionViewCell.xib */; };
+		0632A64121757C2400EC474A /* VMGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0632A64021757C2400EC474A /* VMGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		0632A62A2175794B00EC474A /* PracticeTetrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeTetrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0632A62E2175794B00EC474A /* PracticeTetrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTetrisUITests.swift; sourceTree = "<group>"; };
 		0632A6302175794B00EC474A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0632A63C21757A6700EC474A /* CVGridCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVGridCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		0632A63D21757A6700EC474A /* CVGridCellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CVGridCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		0632A64021757C2400EC474A /* VMGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				0632A60E2175794A00EC474A /* AppDelegate.swift */,
 				0632A6102175794A00EC474A /* ViewController.swift */,
 				0632A6122175794A00EC474A /* Main.storyboard */,
+				0632A63C21757A6700EC474A /* CVGridCellCollectionViewCell.swift */,
+				0632A63D21757A6700EC474A /* CVGridCellCollectionViewCell.xib */,
 				0632A6152175794B00EC474A /* Assets.xcassets */,
 				0632A6172175794B00EC474A /* LaunchScreen.storyboard */,
 				0632A61A2175794B00EC474A /* Info.plist */,
+				0632A64021757C2400EC474A /* VMGame.swift */,
 			);
 			path = PracticeTetris;
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			files = (
 				0632A6192175794B00EC474A /* LaunchScreen.storyboard in Resources */,
 				0632A6162175794B00EC474A /* Assets.xcassets in Resources */,
+				0632A63F21757A6700EC474A /* CVGridCellCollectionViewCell.xib in Resources */,
 				0632A6142175794A00EC474A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0632A64121757C2400EC474A /* VMGame.swift in Sources */,
 				0632A6112175794A00EC474A /* ViewController.swift in Sources */,
 				0632A60F2175794A00EC474A /* AppDelegate.swift in Sources */,
+				0632A63E21757A6700EC474A /* CVGridCellCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHXJAVM768;
 				INFOPLIST_FILE = PracticeTetris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CHXJAVM768;
 				INFOPLIST_FILE = PracticeTetris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
